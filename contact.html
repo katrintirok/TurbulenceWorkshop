@@ -4,11 +4,12 @@ description: Send us a message to find out more!
 map:
   latitude: -29.866063
   longitude: 30.982171
-  address: "Howard College Campus, King George V Avenue, Durban 4001"
+  address: "Discipline of Civil Engineering, Centenary building, Howard College, University of KwaZulu-Natal,
+   Mazisi Kunene Road, Glenwood, Durban 4041"
   zoom: 13
   maxZoom: 16
   minZoom: 5
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+image: /images/Centenary.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -43,9 +44,14 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 		<div class="contact-details">
 			<h3>Address</h3>
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+			<!--
+			<address><a target="_blank" ></a></address>
+			-->
 
 			<h3>Email</h3>
 			<p class="editable"><a href="mailto:tirok@ukzn.ac.za, stretchd@ukzn.ac.za, chetty@ukzn.ac.za">turbulence2018@ukzn.ac.za</a></p>
+			<h3>Phone</h3>
+			<p class="editable">031 260 3058</p>
 		</div>
 	</div>
 </section>

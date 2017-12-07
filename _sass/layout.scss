@@ -219,3 +219,12 @@ blockquote:before {
 .cms-editor-active .editor-link {
 	display: block;
 }
+
+table {
+  border-collapse: separate;
+  border-spacing: 30px 0;
+}
+
+td {
+  padding: 10px 0;
+}
