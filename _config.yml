@@ -1,22 +1,23 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Turbulence Workshop
+# title: Frisco Template
+# url: "https://brave-submarine.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key: AIzaSyAi3-v8TkDdayokIoLnJ802kC-U28zrOi4
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: App marketing template for Jekyll.
+logo: #/siteicon.png
+description: Workshop Website
 author:
-  name:
+  name: Katrin Tirok
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Turbulence Workshop
   links:
     - https://github.com/CloudCannon/frisco-jekyll-template
 
